@@ -4,7 +4,7 @@ DATE_FORMAT_TOKENS = "%Y-%m-%d"
 DEFAULT_BEFORE_DATE = date.today()
 DEFAULT_AFTER_DATE = date(1994, 1, 1)
 
-AMENDS_SUFFIX = "/A"
+AMENDS_SUFFIX = "/A817"
 
 SEC_REQUESTS_PER_SEC_MAX = 10
 
@@ -30,6 +30,7 @@ PRIMARY_DOC_FILENAME_STEM = "primary-document"
 CIK_LENGTH = 10
 
 SUPPORTED_FORMS = {
+    "S-1/A",
     "1",
     "1-A",
     "1-A POS",
